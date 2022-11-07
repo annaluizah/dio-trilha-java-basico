@@ -1,22 +1,14 @@
 public class Operadores {
     public static void main(String[] args) {
-        String nomeCompleto = "LINGUAGEM " + "JAVA";
 
-        System.out.println(nomeCompleto);
+       int numero = 5;
 
-        // Exercício de concatenação
+       numero = - numero;
 
-        String concatenacao = "?";
+       System.out.println(numero);
 
-        concatenacao = 1+1+1+"1";
-        System.out.println(concatenacao);
-        concatenacao = 1+"1"+1+1;
-        System.out.println(concatenacao);
-        concatenacao = 1+"1"+1+"1";
-        System.out.println(concatenacao);
-        concatenacao = "1"+1+1+1;
-        System.out.println(concatenacao);
-        concatenacao = "1"+(1+1+1);
-        System.out.println(concatenacao);
+       numero = + numero * -1;
+
+       System.out.println(numero);
     }
 }
