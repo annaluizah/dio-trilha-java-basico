@@ -1,14 +1,20 @@
 public class Operadores {
     public static void main(String[] args) {
+    // Repetição - Incremento ou decremento de valor
 
-       int numero = 5;
+    int numero = 5;
+    // numero = numero + 1
+    //numero++;
 
-       numero = - numero;
+    System.out.println(++ numero);
 
-       System.out.println(numero);
+    // System.out.println(numero);
 
-       numero = + numero * -1;
+    // Negação de expressões
 
-       System.out.println(numero);
+    boolean variavel = true;
+    variavel = !variavel;
+
+    System.out.println(variavel);
     }
 }
